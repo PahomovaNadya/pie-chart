@@ -1,0 +1,25 @@
+{
+  "menus": 
+  [
+    {
+      "idmenu": 1,
+      "title": "Home",
+      "linkmenu": ""
+    },
+    {
+      "idmenu": 2,
+      "title": "Press Instalation",
+      "linkmenu": "press-instalation"
+    },
+    {
+      "idmenu": 3,
+      "title": "Menu 3",
+      "linkmenu": "custom-page"
+    },
+    {
+      "idmenu": 4,
+      "title": "Menu 4",
+      "linkmenu": "custom-page"
+    }
+  ]
+}

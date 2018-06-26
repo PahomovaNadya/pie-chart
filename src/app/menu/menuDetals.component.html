@@ -1,0 +1,1 @@
+<li [class]="(item.idmenu===this.activeLiId) ? 'menu-li active' : 'menu-li notactive'" (click)="changeStyle(item.idmenu)"><a routerLink="{{item.linkmenu}}">{{item.title}}</a></li>
