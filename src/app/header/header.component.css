@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    height: 20%;
+}
+.logo {
+  position: relative;
+  float: left;
+  background-image: url('images/logo.png');
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 111px;
+  width: 8vw;
+  height: 111px;
+  height: 8vw;
+  margin: 0px 0px 10px 10px;
+}
+.logo-text {
+  position: relative;
+  float: left;
+  width: 80%;
+  text-transform: capitalize;
+  margin-left: 2%;
+}
+.logo-text > h1 {
+  color: #a5a5a5;
+  font-size: 26px;
+  margin: 2% 0px 1% 0px;
+  padding: 0px;
+}
+.logo-text > h3 {
+  color: #000000;
+  font-size: 26px;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  position: relative;
+  float: left;
+  margin-top: 2%;
+  width: 110px;
+  border: 1px solid transparent;
+  display: none;
+}
+.navbar > span {
+  line-height: 25px;
+  float: left;
+  font-size: 1em;
+}
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-default {
+  background: none;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 8px;
+}
+.pull-left {
+  float: right !important;
+}
+button {
+  margin: 0;
+  padding: 1px 1px;
+  font-family: inherit;
+  font-size: 100%;
+  text-transform: none;
+  line-height: normal;
+  cursor: pointer;
+  -width: 100px;
+  -height: 100px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-appearance: button;
+  float: left;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #000000;
+  margin: 3px;
+}
+#menu-navig {
+  display: block;
+}
+.menu {
+  position: relative;
+  float: left;
+  width: 350px;
+  min-height: 70px;
+  height: 90%;
+  height: 75vh;
+  background-color: #565656;
+}
+
+@media screen and (max-width: 1279px) and (max-height: 1023px) {
+  .logo {
+    width: 32px;
+    width: 10vw;
+    height: 32px;
+    height: 10vw;
+    margin: 5px 0px 5px 5px;
+  }
+  .logo-text {
+    width: 60%;
+  }
+  .logo-text > h1 {
+    margin: 2% 0px 1% 0px;
+    font-size: 14px;
+  }
+  .logo-text > h3 {
+    font-size: 14px;
+  }
+  .navbar {
+    display: block;
+    width: 80px;
+  }
+  #menu-navig {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    top: 9%;
+    left: 0px;
+    z-index: 10;
+    width: 320px
+  }
+}
